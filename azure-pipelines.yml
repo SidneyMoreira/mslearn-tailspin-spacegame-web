@@ -1,8 +1,8 @@
 trigger:
 - '*'
 
-pool:
-  name: 'MyAgentPool'
+pool: 
+  name: 'AgentLinuxServer'
   demands:
     - npm
 
