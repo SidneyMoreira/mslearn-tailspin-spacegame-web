@@ -2,9 +2,9 @@ trigger:
 - '*'
 
 pool:
-  name: 'agentcentos8'
+  name: 'AgentLinuxServer'
   demands:
-    - npm
+  - npm
 
 variables:
   buildConfiguration: 'Release'
